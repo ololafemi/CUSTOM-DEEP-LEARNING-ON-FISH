@@ -1,5 +1,5 @@
 # CUSTOM-DEEP-LEARNING-ON-FISH
-This is a project built to build a custom Convolutional Neural Network for multiclass 
+This project builds a custom Convolutional Neural Network for multiclass model
 
 
 This notebook implements a 31-class fish image classification experiment using 8,829 images split 80/20 into training and validation sets. Two approaches were compared: a custom CNN and a transfer-learning model based on VGG16. The workflow includes basic data augmentation, normalisation, caching, shuffling, and early stopping callbacks to reduce overfitting.
